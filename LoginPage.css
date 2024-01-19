@@ -1,0 +1,274 @@
+.rect-pass-icon1 {
+  position: absolute;
+  top: 594px;
+  left: 766px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.background-kiri {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: var(--color-linen);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-right: 2px solid var(--color-forestgreen);
+  box-sizing: border-box;
+  width: 720px;
+  height: 1024px;
+}
+.password1 {
+  margin: 0;
+  position: absolute;
+  top: 523px;
+  left: 745px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 66px;
+}
+.button-login-child {
+  position: relative;
+  background-color: var(--color-forestgreen);
+  width: 151px;
+  height: 40px;
+  cursor: pointer;
+}
+.button-login1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 685px;
+  left: 766px;
+  width: 151px;
+  height: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+}
+.login1 {
+  position: absolute;
+  top: 702px;
+  left: 793px;
+  font-size: var(--font-size-xl);
+  color: var(--colours-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 92px;
+  height: 23px;
+}
+.image-removebg-preview-5-1 {
+  position: relative;
+  width: 716px;
+  height: 641px;
+  object-fit: cover;
+}
+.background {
+  position: absolute;
+  top: 175px;
+  left: -12px;
+  width: 716px;
+  height: 674px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.psj-transparent-32 {
+  position: relative;
+  width: 218px;
+  height: 220px;
+  object-fit: cover;
+}
+.logo-psj {
+  position: absolute;
+  top: 328px;
+  left: 251px;
+  width: 218px;
+  height: 368px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.projek-sedekah-jariah3 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 580px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.tulisan-psj {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+
+.frame10 {
+  position: absolute;
+  top: 408px;
+  left: 70px;
+  width: 580px;
+  height: 208px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkgoldenrod);
+  font-family: var(--font-changa-one);
+}
+.log-in {
+  margin: 0;
+  position: absolute;
+  top: 226px;
+  left: 687px;
+  font-size: var(--font-size-61xl);
+  font-weight: 700;
+  font-family: var(--font-caudex);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 383px;
+  height: 102px;
+}
+.rect-mykad-icon {
+  position: absolute;
+  top: 438px;
+  left: 766px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.nombor-mykad {
+  margin: 0;
+  position: absolute;
+  top: 372px;
+  left: 720px;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 299px;
+}
+.dont-have-an {
+  color: var(--color-black);
+}
+.sign-up1 {
+  color: var(--color-forestgreen);
+}
+.sign-up-txt-container {
+  width: 100%;
+}
+.sign-up {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 831px;
+  left: 865px;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-changa);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 357px;
+  height: 53px;
+}
+.forgot-password {
+  position: relative;
+  display: inline-block;
+  width: 151px;
+  height: 37px;
+  flex-shrink: 0;
+}
+.button-forgot-pass {
+  position: absolute;
+  top: 660px;
+  left: 915px;
+  width: 365px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+}
+.input-password {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: var(--colours-primary);
+  position: absolute;
+  top: 608px;
+  left: 776px;
+  width: 268px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 0px var(--padding-5xs);
+  box-sizing: border-box;
+  color: var(--color-black);
+}
+.xxxxxxxxx {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: relative;
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 260px;
+  height: 28px;
+  flex-shrink: 0;
+}
+.input-mykad {
+  position: absolute;
+  top: 450px;
+  left: 776px;
+  background-color: var(--colours-primary);
+  width: 268px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.login-page {
+  position: relative;
+  background-color: var(--colours-primary);
+  width: 100%;
+  height: 1024px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-11xl);
+  color: var(--color-black);
+  font-family: var(--font-changa);
+}

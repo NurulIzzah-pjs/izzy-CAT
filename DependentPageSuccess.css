@@ -1,0 +1,131 @@
+.frame-child29 {
+  position: relative;
+  background-color: var(--colours-primary);
+  width: 1268px;
+  height: 1011px;
+}
+.frame33 {
+  position: absolute;
+  top: 85px;
+  left: 78px;
+  width: 1284px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.psj-transparent-37 {
+  position: relative;
+  width: 172px;
+  height: 127px;
+  object-fit: cover;
+}
+.frame34 {
+  position: absolute;
+  top: 163px;
+  left: 352px;
+  width: 736px;
+  overflow: hidden;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frame34,
+.frame35,
+.projek-sedekah-jariah28 {
+  display: flex;
+  justify-content: center;
+}
+.projek-sedekah-jariah28 {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 580px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.frame35 {
+  position: absolute;
+  top: 163px;
+  left: 361px;
+  width: 718px;
+  overflow: hidden;
+  display: flex;
+
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+.dependent-page-success-child {
+  position: absolute;
+  top: 409px;
+  left: 184px;
+  background-color: var(--color-linen);
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1072px;
+  height: 233px;
+}
+.you-have-successfully {
+  position: relative;
+}
+.frame36 {
+  position: absolute;
+  top: 503px;
+  left: 365px;
+  width: 710px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: var(--font-size-13xl);
+  color: var(--color-forestgreen);
+  font-family: var(--font-krona-one);
+}
+.kotak-submit {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-lightsteelblue);
+  position: absolute;
+  top: calc(50% + 179px);
+  left: calc(50% - 109px);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 218px;
+  height: 93px;
+}
+.login1 {
+  position: absolute;
+  top: 788px;
+  left: 675px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--font-montserrat);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 90px;
+  height: 41px;
+}
+.dependent-page-success {
+  position: relative;
+  background-color: var(--color-linen);
+  width: 100%;
+  height: 1166px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkgoldenrod);
+  font-family: var(--font-changa-one);
+}

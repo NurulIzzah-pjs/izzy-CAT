@@ -1,0 +1,42 @@
+body{
+    background-color: seagreen;
+}
+
+#form{
+    background-color: white;
+    width:25%;
+    margin: 120px auto;
+    padding: 50px;
+    box-shadow: 10px 10px 5px rgb(82,11,77);
+    border-radius: 6px;
+}
+
+#btn{
+    color: white;
+    background-color: seagreen;
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+}
+
+#loginButton{
+    color: seagreen;
+    background-color: white;
+    padding: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#loginButton:hover{
+    background-color: #0056b3;
+}
+
+@media screen and (max-width:450px){
+    #form{
+        width:65%;
+        padding: 40px;
+    }
+}

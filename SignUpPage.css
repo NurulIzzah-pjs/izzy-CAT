@@ -1,0 +1,334 @@
+.sign-up-page-child {
+  position: absolute;
+  top: 85px;
+  left: 78px;
+  background-color: var(--colours-primary);
+
+  width: 1268px;
+  height: 1011px;
+}
+.welcome-to-psj {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 580px;
+  height: 121px;
+  flex-shrink: 0;
+}
+.frame38 {
+  position: absolute;
+  top: 58px;
+  left: 78px;
+  width: 932px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  font-size: var(--font-size-31xl);
+  color: var(--color-darkgoldenrod);
+  font-family: var(--font-changa-one);
+}
+.frame39 {
+  position: absolute;
+  top: 179px;
+  left: 78px;
+  width: 244px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.address {
+  position: relative;
+  display: inline-block;
+  width: 169px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.frame40 {
+  position: absolute;
+  top: 671px;
+  left: 78px;
+  width: 244px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.phone-number {
+  position: relative;
+  display: inline-block;
+  width: 252px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.frame41 {
+  position: absolute;
+  top: 539px;
+  left: 78px;
+  width: 331px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.confirm-password {
+  position: relative;
+  display: inline-block;
+  width: 284px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.frame42 {
+  position: absolute;
+  top: 425px;
+  left: 78px;
+  width: 975px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frame43 {
+  position: absolute;
+  top: 425px;
+  left: 78px;
+  width: 244px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.email-address {
+  position: relative;
+  display: inline-block;
+  width: 213px;
+  height: 30px;
+  flex-shrink: 0;
+}
+.frame44 {
+  position: absolute;
+  top: 302px;
+  left: 78px;
+  width: 900px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.kotak-submit2 {
+  cursor: pointer;
+  border: 1px solid var(--color-black);
+  padding: 0;
+  background-color: var(--color-lightsteelblue);
+  position: absolute;
+  top: calc(50% + 280px);
+  left: calc(50% - 82px);
+  border-radius: var(--br-3xs);
+  box-sizing: border-box;
+  width: 165px;
+  height: 60px;
+}
+.next {
+  position: absolute;
+  top: 875px;
+  left: 689px;
+  display: inline-block;
+  width: 63px;
+  height: 35px;
+}
+.identification-card1 {
+  position: absolute;
+  top: 297px;
+  left: 153px;
+  display: inline-block;
+  width: 250px;
+  height: 28px;
+}
+.sign-up-page-item {
+  position: absolute;
+  top: 225px;
+  left: 153px;
+  width: 513px;
+  height: 55px;
+}
+.sign-up-page-inner {
+  position: absolute;
+  top: 342px;
+  left: 765px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.sign-up-page-child1 {
+  position: absolute;
+  top: 470px;
+  left: 765px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.sign-up-page-child2 {
+  position: absolute;
+  top: 584px;
+  left: 153px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.sign-up-page-child3 {
+  position: absolute;
+  top: 718px;
+  left: 153px;
+  background-color: var(--colours-primary);
+
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1111px;
+  height: 108px;
+}
+.telok-panglima-garang {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 149px);
+  left: calc(50% - 556px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 429px;
+  height: 28px;
+}
+.xxxxxxxxxgmailcom1 {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 227px);
+  left: calc(50% + 65px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 410px;
+  height: 28px;
+}
+.xxxx-xxx {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% + 14px);
+  left: calc(50% - 549px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 229px;
+  height: 28px;
+}
+.sign-up-page-child4 {
+  position: absolute;
+  top: 470px;
+  left: 153px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.sign-up-page-child5 {
+  position: absolute;
+  top: 342px;
+  left: 153px;
+  width: 513px;
+  height: 55px;
+  object-fit: cover;
+}
+.xxxxxxxxx2 {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 227px);
+  left: calc(50% - 549px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 260px;
+  height: 28px;
+}
+.fatiha-atiera-binti {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 344px);
+  left: calc(50% - 556px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 415px;
+  height: 28px;
+}
+.xxxx {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% - 556px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 260px;
+  height: 28px;
+}
+.xxxx1 {
+  border: none;
+  outline: none;
+  font-family: var(--font-montserrat);
+  font-size: var(--font-size-5xl);
+  background-color: transparent;
+  position: absolute;
+  top: calc(50% - 100px);
+  left: calc(50% + 65px);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+  width: 260px;
+  height: 28px;
+}
+.sign-up-page {
+  position: relative;
+  background-color: var(--color-linen);
+  width: 100%;
+  height: 1166px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

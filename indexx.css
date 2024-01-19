@@ -1,0 +1,429 @@
+.bc-5pm-child {
+    position: absolute;
+    top: 0px;
+    left: 2.5px;
+    background-color: var(--color-white);
+    width: 1442.5px;
+    height: 1279.5px;
+}
+.bc-5pm-item {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    width: 1440px;
+    height: 252px;
+    object-fit: cover;
+}
+.instance-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    border-radius: var(--br-6xl);
+    background-color: var(--color-yellowgreen);
+}
+.bc-5pm-inner {
+    position: absolute;
+    top: 402px;
+    left: 152px;
+    width: 242px;
+    height: 65px;
+    cursor: pointer;
+}
+.rectangle-div {
+    position: absolute;
+    top: 402px;
+    left: 1050px;
+    width: 242px;
+    height: 65px;
+}
+.bc-5pm-inner1 {
+    position: absolute;
+    top: 402px;
+    left: 751px;
+    width: 242px;
+    height: 65px;
+}
+.bc-5pm-inner2 {
+    position: absolute;
+    top: 402px;
+    left: 451px;
+    width: 242px;
+    height: 65px;
+}
+.bc-5pm-inner3 {
+    position: absolute;
+    top: 538px;
+    left: 152px;
+    width: 242px;
+    height: 65px;
+}
+.bc-5pm-inner4 {
+    position: absolute;
+    top: 538px;
+    left: 1050px;
+    width: 242px;
+    height: 65px;
+}
+.bc-5pm-inner5 {
+    position: absolute;
+    top: 538px;
+    left: 751px;
+    width: 242px;
+    height: 65px;
+}
+.bc-5pm-inner6 {
+    position: absolute;
+    top: 538px;
+    left: 451px;
+    width: 242px;
+    height: 65px;
+}
+.am-1000 {
+    position: absolute;
+    top: 427px;
+    left: 166px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 214px;
+    height: 15px;
+}
+.am-1100 {
+    position: absolute;
+    top: 427px;
+    left: 464px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 217px;
+    height: 15px;
+}
+.am-1200 {
+    position: absolute;
+    top: 427px;
+    left: 763px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 217px;
+    height: 15px;
+}
+.am-100 {
+    position: absolute;
+    top: 427px;
+    left: 1067px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 207px;
+    height: 15px;
+}
+.pm-300 {
+    position: absolute;
+    top: 563px;
+    left: 173px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 200px;
+    height: 15px;
+}
+.pm-400 {
+    position: absolute;
+    top: 563px;
+    left: 472px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 200px;
+    height: 15px;
+}
+.pm-500 {
+    position: absolute;
+    top: 563px;
+    left: 772px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 200px;
+    height: 15px;
+}
+.pm-600 {
+    position: absolute;
+    top: 563px;
+    left: 1071px;
+    display: inline-block;
+    color: var(--color-white);
+    width: 200px;
+    height: 15px;
+}
+.kotak-atas {
+    position: absolute;
+    top: 0px;
+    left: 5px;
+    background-color: var(--color-white);
+    border-bottom: 0.6px solid var(--color-gray);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 135.6px;
+}
+.bc-5pm-child1 {
+    position: absolute;
+    top: 32px;
+    left: 349px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gainsboro);
+    width: 957px;
+    height: 70px;
+}
+.contact-us {
+    position: absolute;
+    top: 58px;
+    left: 1037px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.psj-transparent-3 {
+    position: absolute;
+    top: 15px;
+    left: 215px;
+    width: 122px;
+    height: 123px;
+    object-fit: cover;
+}
+.articles {
+    position: absolute;
+    top: 58px;
+    left: 898px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.programmes {
+    position: absolute;
+    top: 58px;
+    left: 706px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.about-us {
+    position: absolute;
+    top: 58px;
+    left: 553px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.home {
+    position: absolute;
+    top: 58px;
+    left: 449px;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.polygon-icon {
+    position: absolute;
+    top: 60px;
+    left: 646px;
+    width: 13px;
+    height: 14px;
+    object-fit: contain;
+}
+.my-account1 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 34px;
+    flex-shrink: 0;
+}
+.my-account {
+    position: absolute;
+    top: 50px;
+    left: 1174px;
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.kotak-atas-icon {
+    position: absolute;
+    top: 135px;
+    left: 5px;
+    width: 1440px;
+    height: 113px;
+    object-fit: cover;
+}
+.timeslot-booking {
+    position: absolute;
+    top: 169px;
+    left: 152px;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-krona-one);
+}
+.psj-transparent-4 {
+    position: absolute;
+    top: 44px;
+    left: 100px;
+    width: 222px;
+    height: 208px;
+    object-fit: cover;
+}
+.projek-sedekah-jariah {
+    margin: 0;
+}
+.projek-sedekah-jariah-container {
+    position: absolute;
+    top: 254px;
+    left: 112px;
+}
+.projek-sedekah-jariah-container1 {
+    position: absolute;
+    top: 593px;
+    left: 1024px;
+}
+.privacy-policy-terms-container {
+    position: absolute;
+    top: 539px;
+    left: 1024px;
+    white-space: pre-wrap;
+}
+.no-telefon-016-container {
+    position: absolute;
+    top: 389px;
+    left: 112px;
+}
+.frame-child {
+    position: absolute;
+    top: 577.5px;
+    left: 99.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1241px;
+    height: 1px;
+}
+.psj-transparent-4-parent {
+    position: absolute;
+    top: 628px;
+    left: 3px;
+    width: 1440px;
+    height: 652px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-cagliostro);
+}
+.bc-5pm-child2 {
+    position: absolute;
+    top: 0px;
+    left: 2.5px;
+    background-color: var(--color-black);
+    width: 1442.5px;
+    height: 1279.5px;
+    opacity: 0.6;
+}
+.frame-item {
+    position: absolute;
+    top: 348px;
+    left: 379px;
+    background-color: var(--color-gainsboro);
+    width: 1017.3px;
+    height: 537.1px;
+}
+.are-you-sure-container {
+    position: absolute;
+    top: 541px;
+    left: 520px;
+}
+.kotak-atas-icon1 {
+    position: absolute;
+    top: 363px;
+    left: 379px;
+    width: 1017px;
+    height: 113px;
+    object-fit: cover;
+}
+.booking-confirmation {
+    position: absolute;
+    top: 397px;
+    left: 634px;
+}
+.timeslot-500-pm {
+    position: absolute;
+    top: 649px;
+    left: 540px;
+}
+.frame-inner {
+    position: absolute;
+    top: 759px;
+    left: 970px;
+    background-color: var(--color-yellowgreen);
+    width: 262px;
+    height: 76px;
+}
+.instance-child6 {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    left: 0%;
+    background-color: var(--color-yellowgreen);
+}
+.yes {
+    position: absolute;
+    height: 56.58%;
+    width: 31.3%;
+    top: 21.05%;
+    left: 34.35%;
+    display: inline-block;
+}
+.rectangle-group {
+    position: absolute;
+    top: 759px;
+    left: 540px;
+    width: 262px;
+    height: 76px;
+    cursor: pointer;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+    font-family: var(--font-league-spartan);
+}
+.no {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    display: inline-block;
+}
+.no-wrapper {
+    position: absolute;
+    top: 775px;
+    left: 1060px;
+    width: 82px;
+    height: 43px;
+    cursor: pointer;
+    font-size: var(--font-size-29xl);
+    color: var(--color-white);
+    font-family: var(--font-league-spartan);
+}
+.rectangle-parent {
+    position: absolute;
+    top: 32px;
+    left: -163px;
+    width: 1399px;
+    height: 1142px;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-krona-one);
+}
+.bc-5pm {
+    position: relative;
+    width: 100%;
+    height: 909px;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-league-spartan);
+}
