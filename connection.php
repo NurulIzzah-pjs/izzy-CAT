@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
-$username = "CatDBuser";
-$password = "CatDBpassword";
+$username = "root";
+$password = "root";
 $db_name = "psj";
 $conn = new mysqli($servername, $username, $password, $db_name, 3306);
 if ($conn->connect_error){
