@@ -1,0 +1,531 @@
+.psj-transparent-31 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 122px;
+    height: 123px;
+    object-fit: cover;
+}
+.home1 {
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 56px;
+}
+.programmes1 {
+    position: absolute;
+    top: 0px;
+    left: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 122px;
+    cursor: pointer;
+}
+.articles1 {
+    position: absolute;
+    top: 0px;
+    left: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    cursor: pointer;
+}
+.contact-us1 {
+    position: absolute;
+    top: 0px;
+    left: 582px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 101px;
+}
+.home-group {
+    position: absolute;
+    top: 26px;
+    left: 65px;
+    width: 801px;
+    height: 18px;
+}
+.my-account3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 116px;
+    height: 34px;
+    flex-shrink: 0;
+    text-decoration: none;
+    color: black; /* Set the color explicitly instead of inheriting */
+}
+.my-account2 {
+    position: absolute;
+    top: 18px;
+    left: 786px;
+    width: 116px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.about-us1 {
+    flex: 1;
+    position: relative;
+    color: black;         /* Sets the text color to black */
+    text-decoration: none; /* Removes the underline from the link */
+    margin-left: 10px; /* Adjust the value as needed */
+}
+.dropdown-item {
+    position: relative;
+    width: 13px;
+    height: 14px;
+    object-fit: contain;
+    margin-left: -71px;
+}
+.dropdown1 {
+    position: absolute;
+    top: 18px;
+    left: 130px;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(#d9d9d9, #d9d9d9), #fff;
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 154px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-9xs);
+    min-width: 154px;
+    cursor: pointer;
+}
+.frame3 {
+    position: absolute;
+    top: 27px;
+    left: 140px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gainsboro);
+    width: 934px;
+    height: 63px;
+    overflow: hidden;
+}
+.frame2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1074px;
+    height: 123px;
+    overflow: hidden;
+}
+.frame1 {
+    position: absolute;
+    top: 0px;
+    left: 186px;
+    width: 1098px;
+    height: 123px;
+    overflow: hidden;
+}
+.kotak-atas-icon1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1458px;
+    height: 122px;
+    object-fit: cover;
+}
+.help-desk-form1 {
+    position: absolute;
+    top: 34px;
+    left: 145px;
+}
+.frame5 {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    width: 1458px;
+    height: 122px;
+    overflow: hidden;
+}
+.frame4 {
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    width: 1470px;
+    height: 122px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+}
+.frame {
+    position: absolute;
+    top: 8px;
+    left: -15px;
+    width: 1470px;
+    height: 252px;
+    overflow: hidden;
+}
+.name {
+    position: absolute;
+    top: calc(50% - 14.5px);
+    left: calc(50% - 624px);
+    font-weight: 500;
+}
+.frame9 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1248px;
+    height: 29px;
+    overflow: hidden;
+}
+.first {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 282px);
+    display: inline-block;
+    width: 75px;
+    height: 28px;
+}
+.frame13 {
+    position: absolute;
+    top: calc(50% - 24.5px);
+    left: calc(50% - 601px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+    overflow: hidden;
+}
+.last {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 277px);
+    display: inline-block;
+    width: 75px;
+    height: 28px;
+}
+.frame14 {
+    position: absolute;
+    top: calc(50% - 24.5px);
+    left: calc(50% + 19px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+    overflow: hidden;
+}
+.frame12 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1202px;
+    height: 49px;
+    overflow: hidden;
+}
+.frame11 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1248px;
+    height: 49px;
+    overflow: hidden;
+}
+.kotak-ic {
+    position: absolute;
+    top: calc(50% - 24.5px);
+    left: calc(50% - 601px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+}
+.kotak-email {
+    position: absolute;
+    top: calc(50% - 24.5px);
+    left: calc(50% + 19px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+}
+.xxxxxxxxx {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% - 590px);
+    display: inline-block;
+    width: 260px;
+    height: 28px;
+}
+.xxxxxxxxxgmailcom {
+    position: absolute;
+    top: calc(50% - 13.5px);
+    left: calc(50% + 29px);
+    display: inline-block;
+    width: 410px;
+    height: 28px;
+}
+.frame16 {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    width: 1248px;
+    height: 49px;
+    overflow: hidden;
+}
+.identification-number {
+    position: absolute;
+    top: calc(50% - 14.5px);
+    left: calc(50% - 345px);
+    font-weight: 500;
+}
+.email1 {
+    position: absolute;
+    top: calc(50% - 14.5px);
+    left: calc(50% + 275px);
+    font-weight: 500;
+}
+.frame19 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 690px;
+    height: 29px;
+    overflow: hidden;
+}
+.frame18 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1248px;
+    height: 29px;
+    overflow: hidden;
+    color: var(--color-black);
+}
+.frame15 {
+    position: absolute;
+    top: 91px;
+    left: 0px;
+    width: 1248px;
+    height: 85px;
+    overflow: hidden;
+}
+.frame10 {
+    position: absolute;
+    top: 38px;
+    left: 0px;
+    width: 1248px;
+    height: 176px;
+    overflow: hidden;
+    color: var(--color-darkgray);
+}
+.frame8 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 1248px;
+    height: 214px;
+    overflow: hidden;
+}
+.kotak-issue {
+    position: absolute;
+    top: calc(50% - 114.5px);
+    left: calc(50% - 622px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1200px;
+    height: 229px;
+}
+.frame21 {
+    position: absolute;
+    top: 39px;
+    left: 2px;
+    width: 1244px;
+    height: 229px;
+    overflow: hidden;
+}
+.frame20 {
+    position: absolute;
+    top: 245px;
+    left: 0px;
+    width: 1248px;
+    height: 268px;
+    overflow: hidden;
+}
+.frame7 {
+    position: absolute;
+    top: 0px;
+    left: 102px;
+    width: 1248px;
+    height: 513px;
+    overflow: hidden;
+}
+.psj-transparent-41 {
+    position: absolute;
+    top: 44px;
+    left: 100px;
+    width: 222px;
+    height: 208px;
+    object-fit: cover;
+}
+.projek-sedekah-jariah2 {
+    margin: 0;
+}
+.projek-sedekah-jariah-container2 {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+}
+.frame26 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 312px;
+    height: 81px;
+    overflow: hidden;
+}
+.projek-sedekah-jariah-container3 {
+    position: absolute;
+    top: 54px;
+    left: 924px;
+}
+.privacy-policy-terms-container1 {
+    position: absolute;
+    top: -80px;
+    left: 730px;
+    white-space: pre-wrap;
+}
+
+.frame-inner {
+    position: absolute;
+    top: 38.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1241px;
+    height: 1px;
+}
+.frame28 {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 1240px;
+    height: 108px;
+    overflow: hidden;
+}
+.frame29 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 125px;
+    height: 135px;
+    overflow: hidden;
+}
+.frame27 {
+    position: absolute;
+    top: 135px;
+    left: 0px;
+    width: 1240px;
+    height: 258px;
+    overflow: hidden;
+}
+.frame25 {
+    position: absolute;
+    top: 254px;
+    left: 100px;
+    width: 1240px;
+    height: 393px;
+    overflow: hidden;
+}
+.psj-transparent-4-group {
+    position: absolute;
+    top: 0px;
+    left: 12px;
+    width: 1440px;
+    height: 674px;
+    overflow: hidden;
+}
+.frame24 {
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    width: 1452px;
+    height: 674px;
+    overflow: hidden;
+}
+.submit {
+    position: absolute;
+    top: calc(50% - 11px);
+    left: calc(50% - 48.5px);
+    display: inline-block;
+    width: 102px;
+    cursor: pointer;
+}
+.frame31 {
+    position: absolute;
+    top: calc(50% - 30px);
+    left: calc(50% - 117px);
+    border-radius: var(--br-3xs);
+    background-color: var(--color-lightsteelblue);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 165px;
+    height: 60px;
+    overflow: hidden;
+}
+.frame30 {
+    text-decoration: none;
+    position: absolute;
+    top: 0px;
+    left: 609px;
+    width: 234px;
+    height: 60px;
+    overflow: hidden;
+    text-align: center;
+    color: inherit;
+    font-family: var(--font-krona-one);
+}
+.frame23 {
+    position: absolute;
+    top: 601px;
+    left: 0px;
+    width: 1452px;
+    height: 824px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-cagliostro);
+}
+.frame6 {
+    position: absolute;
+    top: 311px;
+    left: -6px;
+    width: 1452px;
+    height: 1425px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    font-family: var(--font-montserrat);
+}
+.helpdesk {
+    position: relative;
+    background-color: var(--colours-primary);
+    width: 100%;
+    height: 1704px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+    font-family: var(--font-krona-one);
+}
