@@ -1,0 +1,285 @@
+.kotak-atas6 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: var(--colours-primary);
+    border-bottom: 0.6px solid var(--color-gray);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 135.6px;
+}
+.feedback-form-child {
+    position: absolute;
+    top: 32px;
+    left: 344px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gainsboro);
+    width: 957px;
+    height: 70px;
+}
+.contact-us8 {
+    position: absolute;
+    top: 58px;
+    left: 1032px;
+    font-size: var(--font-size-sm);
+}
+.psj-transparent-310 {
+    position: absolute;
+    top: 15px;
+    left: 210px;
+    width: 122px;
+    height: 123px;
+    object-fit: cover;
+}
+.articles9 {
+    position: absolute;
+    top: 58px;
+    left: 893px;
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+}
+.programmes8 {
+    position: absolute;
+    top: 58px;
+    left: 701px;
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+}
+.about-us8 {
+    position: absolute;
+    top: 58px;
+    left: 548px;
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+}
+.home9 {
+    position: absolute;
+    top: 58px;
+    left: 444px;
+    font-size: var(--font-size-sm);
+}
+.feedback-form-item {
+    position: absolute;
+    top: 60px;
+    left: 641px;
+    width: 13px;
+    height: 14px;
+    object-fit: contain;
+}
+.psj-transparent-410 {
+    position: absolute;
+    top: 44px;
+    left: 100px;
+    width: 222px;
+    height: 208px;
+    object-fit: cover;
+}
+.projek-sedekah-jariah21 {
+    margin: 0;
+}
+.projek-sedekah-jariah-container19 {
+    position: absolute;
+    top: 254px;
+    left: 112px;
+}
+.projek-sedekah-jariah-container20 {
+    position: absolute;
+    top: 593px;
+    left: 1024px;
+}
+.privacy-policy-terms-container9 {
+    position: absolute;
+    top: 490px;
+    left: 1024px;
+    white-space: pre-wrap;
+}
+.no-telefon-016-container9 {
+    position: absolute;
+    top: 389px;
+    left: 112px;
+}
+.frame-child14 {
+    position: absolute;
+    top: 577.5px;
+    left: 99.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1241px;
+    height: 1px;
+}
+.psj-transparent-4-parent6 {
+    position: absolute;
+    top: 2574px;
+    left: 0px;
+    width: 1440px;
+    height: 1785px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-cagliostro);
+}
+.kotak-atas-icon8 {
+    position: absolute;
+    top: 138px;
+    left: -3px;
+    width: 1440px;
+    height: 113px;
+    object-fit: cover;
+}
+.feedback-form3 {
+    position: absolute;
+    top: 172px;
+    left: 142px;
+    font-size: var(--font-size-17xl);
+}
+.send-us-message2 {
+    position: absolute;
+    top: 309px;
+    left: 130px;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-moul);
+}
+.feedback-form-inner {
+    position: absolute;
+    top: 403px;
+    left: 89px;
+    background-color: var(--colours-primary);
+    width: 1311px;
+    height: 723px;
+}
+.psj-transparent-4-parent7 {
+    position: absolute;
+    top: 1198px;
+    left: 29px;
+    width: 1440px;
+    height: 1785px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-cagliostro);
+}
+.first-name-kotak1 {
+    position: absolute;
+    top: calc(50% - 461.5px);
+    left: calc(50% - 583px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+}
+.kotak-submit4 {
+    position: absolute;
+    top: calc(50% + 83.5px);
+    left: calc(50% - 70px);
+    border-radius: var(--br-3xs);
+    background-color: var(--color-lightsteelblue);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 165px;
+    height: 60px;
+}
+.kotak-ic2 {
+    position: absolute;
+    top: calc(50% - 334.5px);
+    left: calc(50% - 583px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+}
+.kotak-email2 {
+    position: absolute;
+    top: calc(50% - 334.5px);
+    left: calc(50% + 37px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+}
+.kotak-issue2 {
+    position: absolute;
+    top: calc(50% - 215.5px);
+    left: calc(50% - 581px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1200px;
+    height: 229px;
+}
+.last-name-kotak1 {
+    position: absolute;
+    top: calc(50% - 461.5px);
+    left: calc(50% + 37px);
+    background-color: var(--colours-primary);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 582px;
+    height: 49px;
+}
+.name5 {
+    position: absolute;
+    top: calc(50% - 499.5px);
+    left: calc(50% - 583px);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+}
+.phone-number2 {
+    position: absolute;
+    top: calc(50% - 370.5px);
+    left: calc(50% - 583px);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+}
+.email21 {
+    position: absolute;
+    top: calc(50% - 370.5px);
+    left: calc(50% + 37px);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+}
+.send-us-message3 {
+    position: absolute;
+    top: calc(50% - 254.5px);
+    left: calc(50% - 583px);
+    font-weight: 500;
+    font-family: var(--font-montserrat);
+}
+.first4 {
+    position: absolute;
+    top: calc(50% - 450.5px);
+    left: calc(50% - 574px);
+    font-family: var(--font-montserrat);
+    display: inline-block;
+    width: 75px;
+    height: 28px;
+}
+.last4 {
+    position: absolute;
+    top: calc(50% - 450.5px);
+    left: calc(50% + 51px);
+    font-family: var(--font-montserrat);
+    display: inline-block;
+    width: 75px;
+    height: 28px;
+}
+.submit3 {
+    position: absolute;
+    top: calc(50% + 100.5px);
+    left: calc(50% - 38px);
+    font-size: var(--font-size-xl);
+    text-align: center;
+    display: inline-block;
+    width: 102px;
+}
+.feedback-form2 {
+    position: relative;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 1889px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-krona-one);
+}
