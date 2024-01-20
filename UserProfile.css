@@ -106,10 +106,10 @@
 }
 .tabledetails {
   position: absolute;
-  top: 59px;
+  top: 50px;
   left: 0px;
   width: 802px;
-  height: 59px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -121,7 +121,7 @@
   top: 0px;
   left: 0px;
   width: 802px;
-  height: 59px;
+  height: 20px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -133,7 +133,7 @@
   top: 118px;
   left: 0px;
   width: 802px;
-  height: 59px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -145,7 +145,7 @@
   top: 240px;
   left: 0px;
   width: 802px;
-  height: 59px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -158,27 +158,42 @@
   top: 177px;
   left: 0px;
   width: 802px;
-  height: 59px;
+  height: 30px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
   gap: var(--gap-22xl);
 }
+.tabledetails5 {
+  position: absolute;
+  top: 300px;
+  left: 0px;
+  width: 802px;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+
 .tabledetails-parent {
   position: absolute;
   top: 150px;
   left: 23px;
   width: 802px;
-  height: 236px;
+  height: auto;
   font-size: var(--font-size-5xl);
   font-family: var(--font-montserrat);
+  /*display: block; !* or inline-block, depending on your layout *!*/
+
 }
 .user-info-container {
   position: relative;
   background-color: var(--color-linen);
   width: 855px;
-  height: 500px;
+  height: 510px;
   overflow: hidden;
   flex-shrink: 0;
 }
@@ -557,7 +572,17 @@
   width: 56px;
   display: inline-block; /* Allow the text "Home" to be in line with the icon */
   /* Other styling */
+  cursor: pointer;
 }
+
+.home-group {
+  position: absolute;
+  top: 26px;
+  left: 65px;
+  width: 801px;
+  height: 18px;
+}
+
 .programmes8 {
   position: absolute;
   top: 0px;

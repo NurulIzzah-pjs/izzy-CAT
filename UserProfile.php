@@ -131,13 +131,6 @@ echo "Mykad: " . $mykad; // Debugging statement
                         echo "<div class='email-container'><div class='share-your-thoughts-container'>" . htmlspecialchars($row['dependent']) . "</div></div>";
                         echo "</div>";
 
-//                        $sql = "SELECT * FROM psj_booking WHERE user_id='$mykad'"; // Adjust the query as needed
-//                        $result = $conn->query($sql);
-//
-//                        echo "<div class='tabledetails4'>";
-//                        echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Timeslot</div></div>";
-//                        echo "<div class='email-container'><div class='share-your-thoughts-container'>" . htmlspecialchars($row['timeslot']) . "</div></div>";
-//                        echo "</div>";
 
                         // Second query for timeslot
                         $sql_timeslot = "SELECT * FROM psj_booking WHERE user_id='$mykad'";
@@ -152,18 +145,37 @@ echo "Mykad: " . $mykad; // Debugging statement
                         } else {
                             echo "<div class='tabledetails4'>";
                             echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Timeslot</div></div>";
-                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . "No timeslot found". "</div></div>";
+                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . "No timeslot found" . "</div></div>";
                             echo "</div>";
-
                         }
+
+                        // third query for barcode
+                        $sql_barcode = "SELECT * FROM psj_signup WHERE mykad='$mykad'";
+                        $result_barcode = $conn->query($sql_barcode);
+
+                        if ($result_barcode->num_rows > 0) {
+                            $row_barcode = $result_barcode->fetch_assoc();
+                            echo "<div class='tabledetails5'>";
+                            echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Barcode</div></div>";
+                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . htmlspecialchars($row_barcode['barcodeid']) . "</div></div>";
+                            echo "</div>";
+                        }
+                        else {
+                            echo "<div class='tabledetails5'>";
+                            echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Barcode</div></div>";
+                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . "No barcode found" . "</div></div>";
+                            echo "</div>";
+                        }
+
                         echo "</div>";
                     }
-                    else {
-                        echo "0 results";
-                    }
+                else {
+                    echo "0 results";
+                }
 
-                    $conn->close();
-                    ?>
+                $conn->close();
+                ?>
+
                 </div>
             </div>
         </div>
@@ -173,18 +185,18 @@ echo "Mykad: " . $mykad; // Debugging statement
             <div class="frame41">
                 <div class="frame42">
                     <div class="share-your-thoughts-container">
-                        <p class="share-your-thoughts">Share your thoughts with us!</p>
+                        <p class="share-your-thoughts">Do you have any issues?</p>
                         <p class="share-your-thoughts">Click here</p>
                     </div>
                     <a
                             class="feedback-form-wrapper"
-                            href="./FeedbackForm.html"
+                            href="./Helpdesk.html"
                             id="frameLink"
                     >
-                        <div class="booking-slot">FEEDBACK FORM</div>
+                        <div class="booking-slot">HELPDESK FORM</div>
                     </a>
                     <div class="share-your-thoughts-container">
-                        to provide feedback!
+                        to contact us!
                     </div>
                 </div>
                 <div class="frame42">
