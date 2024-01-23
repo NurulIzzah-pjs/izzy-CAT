@@ -2,6 +2,7 @@
 session_start();
 $mykad = isset($_SESSION['mykad']) ? $_SESSION['mykad'] : '';
 echo "Mykad: " . $mykad; // Debugging statement
+$MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['MallbuttonActivated'] : false;
 ?>
 
 <!doctype html>
@@ -200,17 +201,33 @@ echo "Mykad: " . $mykad; // Debugging statement
                     </div>
                 </div>
                 <div class="frame42">
+
                     <div class="share-your-thoughts-container">
                         <p class="share-your-thoughts">Ready to schedule?</p>
                         <p class="share-your-thoughts">Click here</p>
                     </div>
                     <a
                             class="feedback-form-wrapper"
-                            href="Timeslot.php"
+                            href="ListEvent.php"
                             id="frameLink1"
                     >
                         <div class="booking-slot">BOOKING SLOT</div>
                     </a>
+
+<!--                    --><?php
+//    // Check if the button is activated
+//    if ($MallbuttonActivated) {
+//        echo ' <a
+//                            class="feedback-form-wrapper"
+//                            href="Timeslot.php"
+//                            id="frameLink1"
+//                    >
+//                        <div class="booking-slot">BOOKING SLOT</div>
+//                    </a>';}
+//        else {
+//        echo '<p>Booking slot is currently unavailable. Please try again later.</p>';
+//    }
+//        ?>
                     <div class="share-your-thoughts-container">
                         to secure your spot!
                     </div>
