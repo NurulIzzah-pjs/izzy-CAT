@@ -108,8 +108,8 @@ if ($result->num_rows > 0) {
     </div>
     <b class="am-10008">9:00 AM - 10:00 AM</b>
     <b class="am-11008">10:00 AM - 11:00 AM</b>
-    <b class="am-12008">11:00 AM - 12:00 AM</b>
-    <b class="am-1008">12:00 AM - 1:00 PM</b>
+    <b class="am-12008">11:00 AM - 12:00 PM</b>
+    <b class="am-1008">12:00 PM - 1:00 PM</b>
     <b class="pm-3008">2:00 PM - 3:00 PM</b>
     <b class="pm-4008">3:00 PM - 4:00 PM</b>
     <b class="pm-5008">4:00 PM - 5:00 PM</b>

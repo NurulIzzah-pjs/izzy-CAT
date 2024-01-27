@@ -187,7 +187,7 @@ if (isset($_POST['submit'])) {
       var signUp = document.getElementById("signUp");
       if (signUp) {
         signUp.addEventListener("click", function (e) {
-          window.location.href = "./SignUpPage.html";
+          window.location.href = "./SignUpPage.php";
         });
       }
     </script>

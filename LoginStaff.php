@@ -112,15 +112,15 @@ if (isset($_POST['submit'])) {
         </button>
     </form>
 
-    <button class="sign-up" id="signUp">
-        <span class="sign-up-txt-container">
-          <span class="dont-have-an">Don’t have an account? </span>
-          <span class="sign-up1">Sign Up</span>
-        </span>
-    </button>
-    <div class="button-forgot-pass">
-        <div class="forgot-password">Forgot Password</div>
-    </div>
+<!--    <button class="sign-up" id="signUp">-->
+<!--        <span class="sign-up-txt-container">-->
+<!--          <span class="dont-have-an">Don’t have an account? </span>-->
+<!--          <span class="sign-up1">Sign Up</span>-->
+<!--        </span>-->
+<!--    </button>-->
+<!--    <div class="button-forgot-pass">-->
+<!--        <div class="forgot-password">Forgot Password</div>-->
+<!--    </div>-->
 
 </div>
 

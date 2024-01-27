@@ -107,7 +107,7 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
                         $row = $result->fetch_assoc();
                         // Now $row contains the data of the current row
                         echo "<div class='frame38'>";
-                        echo "<div class='siti-aminah-binti'>" . htmlspecialchars($row['name']) . "</div>";
+                        echo "<div class='siti-aminah-binti'>" . htmlspecialchars($row['username']) . "</div>";
                         echo "<div class='div'>" . htmlspecialchars($row['mykad']) . "</div>";
                         echo "</div>";
 

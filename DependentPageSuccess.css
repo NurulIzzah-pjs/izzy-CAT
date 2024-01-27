@@ -1,131 +1,223 @@
-.frame-child29 {
-  position: relative;
-  background-color: var(--colours-primary);
+.logo-frame-child {
   width: 1268px;
   height: 1011px;
-}
-.frame33 {
-  position: absolute;
-  top: 85px;
-  left: 78px;
-  width: 1284px;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-}
-.psj-transparent-37 {
   position: relative;
-  width: 172px;
+  background-color: var(--colours-primary);
+  display: none;
+  max-width: 100%;
+}
+.psj-transparent-31 {
   height: 127px;
+  width: 172px;
+  position: relative;
   object-fit: cover;
 }
-.frame34 {
-  position: absolute;
-  top: 163px;
-  left: 352px;
-  width: 736px;
-  overflow: hidden;
-  display: flex;
-
-  flex-direction: column;
-  align-items: flex-start;
-}
-.frame34,
-.frame35,
-.projek-sedekah-jariah28 {
-  display: flex;
-  justify-content: center;
-}
-.projek-sedekah-jariah28 {
+.projek-sedekah-jariah2 {
   margin: 0;
+  width: 580px;
+  height: 121px;
   position: relative;
   font-size: inherit;
   font-weight: 400;
   font-family: inherit;
   display: flex;
-
   align-items: center;
   justify-content: center;
-
-  width: 580px;
-  height: 121px;
   flex-shrink: 0;
+  max-width: 105%;
+  z-index: 2;
 }
-.frame35 {
-  position: absolute;
-  top: 163px;
-  left: 361px;
-  width: 718px;
-  overflow: hidden;
-  display: flex;
-
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-
-}
-.dependent-page-success-child {
-  position: absolute;
-  top: 409px;
-  left: 184px;
-  background-color: var(--color-linen);
-  border: 1px solid var(--color-black);
-  box-sizing: border-box;
-  width: 1072px;
-  height: 233px;
-}
-.you-have-successfully {
-  position: relative;
-}
-.frame36 {
-  position: absolute;
-  top: 503px;
-  left: 365px;
-  width: 710px;
-  overflow: hidden;
+.projek-text {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  font-size: var(--font-size-13xl);
-  color: var(--color-forestgreen);
-  font-family: var(--font-krona-one);
-}
-.kotak-submit {
-  cursor: pointer;
-  border: 1px solid var(--color-black);
+  justify-content: flex-start;
   padding: 0;
-  background-color: var(--color-lightsteelblue);
-  position: absolute;
-  top: calc(50% + 179px);
-  left: calc(50% - 109px);
-  border-radius: var(--br-3xs);
-  box-sizing: border-box;
-  width: 218px;
-  height: 93px;
+  min-width: 361px;
 }
-.login1 {
-  position: absolute;
-  top: 788px;
-  left: 675px;
-  font-size: var(--font-size-11xl);
+.logo,
+.projek-text,
+.sign-up-status-child {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logo {
+  width: 736px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xs) 0 0;
+  row-gap: 20px;
+  z-index: 1;
+}
+.sign-up-status-child {
+  height: 233px;
+  width: 1072px;
+  position: relative;
+  background-color: var(--color-linen);
+  border: 1px solid var(--color-black);
+  display: none;
+}
+.you-have-successfully {
+  position: relative;
+  font-size: 32px;
+  font-family: var(--font-krona-one);
+  color: var(--color-forestgreen);
+  text-align: center;
+  z-index: 1;
+}
+.button-submit,
+.sign-up-status {
+  align-self: stretch;
+  border: 1px solid var(--color-black);
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.sign-up-status {
+  padding: 93px var(--padding-2xl) 98px var(--padding-xl);
+  background-color: var(--color-linen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  z-index: 1;
+}
+.sign-up-status:hover {
+  background-color: #d6d1c7;
+  border: 1px solid var(--color-darkslategray);
+  box-sizing: border-box;
+}
+.button-submit {
+  width: 165px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-lightsteelblue);
+}
+.login2 {
+  position: relative;
+  font-size: var(--font-size-5xl);
   font-family: var(--font-montserrat);
   color: var(--color-black);
   text-align: left;
-  display: inline-block;
-  width: 90px;
-  height: 41px;
+  z-index: 1;
+  margin-left: -117px;
 }
-.dependent-page-success {
-  position: relative;
-  background-color: var(--color-linen);
-  width: 100%;
-  height: 1166px;
-  overflow: hidden;
+.login1,
+.signup-status-frame {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.login1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  width: 165px;
+  height: 60px;
+  flex-direction: row;
+  z-index: 1;
+}
+.signup-status-frame {
+  width: 1070px;
+  flex-direction: column;
+  gap: 85px;
+  max-width: 100%;
+}
+.logo-frame,
+.logo-frame-wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.logo-frame {
+  align-self: stretch;
+  background-color: var(--colours-primary);
+  align-items: center;
+  justify-content: flex-start;
+  padding: 81px var(--padding-xl) 307px var(--padding-17xl);
+  gap: 120px;
+  flex-shrink: 0;
+}
+.logo-frame-wrapper {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
   text-align: center;
   font-size: var(--font-size-31xl);
   color: var(--color-darkgoldenrod);
   font-family: var(--font-changa-one);
+}
+.background-putih,
+.dependent-page-success {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+.background-putih {
+  width: 1284px;
+  flex-shrink: 0;
+  padding: 0 var(--padding-base) 0 0;
+  max-width: 100%;
+}
+.dependent-page-success {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-linen);
+  padding: 85px var(--padding-xl) var(--padding-56xl);
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1125px) {
+  .signup-status-frame {
+    gap: var(--gap-23xl);
+  }
+  .logo-frame {
+    gap: 60px;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .projek-sedekah-jariah2 {
+    font-size: var(--font-size-21xl);
+  }
+  .you-have-successfully {
+    font-size: 26px;
+  }
+  .logo-frame {
+    padding-top: var(--padding-34xl);
+    padding-bottom: 200px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .projek-text {
+    min-width: 100%;
+  }
+  .signup-status-frame {
+    gap: var(--gap-2xl);
+  }
+  .logo-frame {
+    gap: var(--gap-11xl);
+    padding-top: var(--padding-15xl);
+    padding-bottom: 130px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .projek-sedekah-jariah2 {
+    font-size: var(--font-size-11xl);
+  }
+  .login2,
+  .you-have-successfully {
+    font-size: var(--font-size-lgi);
+  }
 }

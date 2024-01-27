@@ -39,6 +39,7 @@ body {
     --font-size-21xl: 40px;
     --font-size-10xl: 29px;
     --font-size-lg: 18px;
+    --font-size-lgi: 19px;
 
     /* Colors */
     --colours-primary: #fff;
@@ -57,7 +58,6 @@ body {
     --color-darkslategray: #333;
     --color-tan: #b1ad7e;
 
-
     /* Gaps */
     --gap-44xl: 63px;
     --gap-mini: 15px;
@@ -72,6 +72,14 @@ body {
     --gap-5xl: 24px;
     --gap-smi: 13px;
     --gap-base: 16px;
+    --gap-6xl: 25px;
+    --gap-mid: 17px;
+    --gap-46xl: 65px;
+    --gap-13xl: 32px;
+    --gap-21xl: 40px;
+    --gap-2xs: 11px;
+    --gap-3xs: 10px;
+    --gap-11xl: 30px;
 
     /* Paddings */
     --padding-3xs: 10px;
@@ -119,6 +127,20 @@ body {
     --padding-101xl: 120px;
     --padding-63xl: 82px;
     --padding-lgi: 19px;
+    --padding-20xl: 39px;
+    --padding-17xl: 36px;
+    --padding-sm: 14px;
+    --padding-smi: 13px;
+    --padding-56xl: 75px;
+    --padding-18xl: 37px;
+    --padding-2xs: 11px;
+    --padding-4xs: 9px;
+    --padding-45xl: 64px;
+    --padding-53xl: 72px;
+    --padding-51xl: 70px;
+    --padding-base: 16px;
+    --padding-59xl: 78px;
+
 
     /* Border radiuses */
     --br-8xs: 5px;
