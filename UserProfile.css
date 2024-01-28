@@ -78,7 +78,7 @@
   position: absolute;
   top: 26px;
   left: 35px;
-  width: 700px;
+  width: 800px;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -204,8 +204,8 @@
   align-items: center;
   justify-content: flex-start;
   gap: 89px;
-  position: undefined;
-  height: 452px;
+  position: relative;
+  height: 650px;
   align-self: start;
 }
 .frame34 {
@@ -252,6 +252,7 @@
   justify-content: flex-start; /* Align children to the start of the container */
   width: 1440px;
   height: 123px;
+  cursor: pointer;
 }
 
 
@@ -291,7 +292,7 @@
 
 .frame32 {
   position: absolute;
-  top: 15px;
+  top: 5px;
   left: 0px;
   width: 1443px;
   height: 884px;
@@ -581,6 +582,7 @@
   left: 65px;
   width: 801px;
   height: 18px;
+  cursor: pointer;
 }
 
 .programmes8 {
@@ -750,8 +752,11 @@
 
 .my-account1{
   position: absolute;
-  top: 34px;
-  left: 145px;
+  top: 169px;
+  left: 152px;
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-krona-one);
+  color: var(--color-black);
 }
 
 .kotak-atas-icon9 {
@@ -904,4 +909,105 @@
   font-size: var(--font-size-sm);
   color: var(--color-black);
   font-family: var(--font-krona-one);
+}
+
+.info-box {
+  background-color: #f5f5f5; /* Adjust the color to match the image */
+  border: none; /* Adjust the border thickness/color as needed */
+  width: 1180px; /* Adjust width as needed */
+  margin: 880px auto; /* Center the box */
+  margin-left: 110px; /* Moves the box to the right; adjust as needed */
+  padding: 30px; /* Adjust padding as needed */
+  background-color: var(--color-linen);
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Centers items vertically */align-items: center; /* Centers items vertically */
+  justify-content: flex-start; /* Maximizes space between items */
+  font-size: var(--font-size-13xl);
+  text-align: center;
+}
+
+.info-box1 {
+  background-color: #f5f5f5; /* Adjust the color to match the image */
+  border: none; /* Adjust the border thickness/color as needed */
+  width: 75%; /* Adjust width as needed */
+  margin: 880px auto; /* Center the box */
+  margin-left: 110px; /* Moves the box to the right; adjust as needed */
+  padding: 30px; /* Adjust padding as needed */
+  background-color: var(--color-linen);
+  display: flex; /* Use Flexbox */
+  align-items: center; /* Centers items vertically */align-items: center; /* Centers items vertically */
+  justify-content: flex-start; /* Maximizes space between items */
+  font-size: var(--font-size-13xl);
+  text-align: center;
+}
+
+.name {
+  /*font-size: 18px; !* Adjust the font size as needed *!*/
+  margin: 0;
+  padding: 0;
+  color: #000; /* Adjust the font color as needed */
+  flex: 0; /* Ensures .name1 does not grow or shrink */
+  /* Additional styles for name1 if needed */
+  margin-right: auto; /* Pushes everything else to the right */
+  /* Additional styles for name1 if needed */
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 400;
+  text-align: left;
+flex: none;
+}
+.name, .name-time {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000; /* Adjust the font color as needed */
+  margin: 10px;
+  padding-right: 0px; /* Adds spacing between the label and the time */
+  flex: none; /* Do not allow flex items to grow or shrink */
+}
+.name-time {
+  text-align: left; /* Ensures text is aligned to the left */
+  margin-left: 10px; /* Pushes the time to the right */
+  padding-right: 0; /* No padding on the right side */
+}
+
+.name1 {
+  /*font-size: 18px; !* Adjust the font size as needed *!*/
+  margin: 0;
+  padding: 0;
+  color: #000; /* Adjust the font color as needed */
+  flex: 0; /* Ensures .name1 does not grow or shrink */
+  /* Additional styles for name1 if needed */
+  text-align: center; /* Centers the text */
+  /* Additional styles for name2 if needed */
+  /* This will center "Timeslot Sekolah" in the remaining space */
+  margin-left: 350px; /* Centers the element in the remaining space */
+  margin-right: auto;
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 400;
+  flex-grow: 1;
+  text-align: center;
+  transform: translateY(-928px);
+  position: relative; /* or absolute/fixed, depending on your layout */
+  top: -20px;
+}
+.name1, .name1-time {
+  font-size: 24px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  color: #000; /* Adjust the font color as needed */
+  margin: 10px;
+  padding-right: 0px; /* Adds spacing between the label and the time */
+  flex: none; /* Do not allow flex items to grow or shrink */
+}
+
+.name1-time {
+
+  text-align: center; /* Ensures text is aligned to the left */
+  margin-left: 400px; /* Pushes the time to the right */
+  padding-right: 0; /* No padding on the right side */
+  transform: translateY(-930px);
+  position: relative; /* or absolute/fixed, depending on your layout */
+  top: -57px;
 }
