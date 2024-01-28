@@ -56,16 +56,17 @@
 }
 .login1 {
   position: absolute;
-  top: 702px;
-  left: 793px;
+  top: 5px; /* Adjust the top position as needed */
+  left: 16px; /* Adjust the left position as needed */
   font-size: var(--font-size-xl);
-  color: var(--colours-primary);
+  color: var(--colours-primary); /* Adjust the color as needed */
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 92px;
-  height: 23px;
+  width: calc(100% - 32px); /* Adjust width to fit within the button */
+  height: calc(100% - 32px); /* Adjust height to fit within the button */
 }
+
 .image-removebg-preview-5-1 {
   position: relative;
   width: 716px;
@@ -104,21 +105,29 @@
 }
 .projek-sedekah-jariah3 {
   margin: 0;
-  position: relative;
+  position: fixed;
+  left: 50%; /* Adjust the horizontal position */
+  top: 50%; /* Adjust the vertical position */
+  transform: translate(-50%, -50%);
   font-size: inherit;
   font-weight: 400;
-  font-family: inherit;
+  font-family: var(--font-changa-one);
+  color:var(--color-darkgoldenrod);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 580px;
-  height: 121px;
+  width: 580px; /* You can adjust this to fit your needs */
+  height: 100px; /* You can adjust this to fit your needs */
   flex-shrink: 0;
+
 }
+
+
 .tulisan-psj {
   position: absolute;
-  display: flex;
-  align-items: center;
+  left: 20%; /* Adjust this value as needed */
+  top: 55%;
+  transform: translateY(-50%);
 }
 
 .frame10 {

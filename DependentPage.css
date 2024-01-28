@@ -39,7 +39,7 @@
   max-width: 100%;
 }
 .input-name {
-  width: 260px;
+  width: auto;
   border: 0;
   outline: 0;
   font-family: var(--font-montserrat);
@@ -94,7 +94,7 @@
   max-width: 100%;
 }
 .input-ic {
-  width: 164px;
+  width: 150px;
   border: 0;
   outline: 0;
   font-family: var(--font-montserrat);
@@ -218,7 +218,7 @@
   max-width: 100%;
 }
 .input-relay {
-  width: 42px;
+  width: auto;
   border: 0;
   outline: 0;
   font-family: var(--font-montserrat);
@@ -226,7 +226,7 @@
   background-color: transparent;
   height: 28px;
   position: relative;
-  color: #979797;
+  color: #000;
   text-align: left;
   display: inline-block;
   z-index: 1;
@@ -389,12 +389,9 @@
   .input-ic,
   .input-name,
   .input-relay,
-  .label-age,
-  .label-ic,
-  .label-name,
-  .label-relationship,
   .submit1 {
     font-size: var(--font-size-lgi);
+    width: 80%; /* Adjust the width of the form fields */
   }
   .background-putih {
     gap: var(--gap-base);
