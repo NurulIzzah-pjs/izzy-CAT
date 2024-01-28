@@ -12,32 +12,32 @@ $mykad = isset($_SESSION['mykad']) ? $_SESSION['mykad'] : '';
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./DependentPage.css" />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Changa One:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Changa One:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Cagliostro:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Cagliostro:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Changa:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Changa:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap"
     />
 
     <script>
@@ -80,16 +80,15 @@ $mykad = isset($_SESSION['mykad']) ? $_SESSION['mykad'] : '';
                             <div class="i-c-label-frame">
                                 <div class="dependent-age-label">
                                     <img
-                                        class="rect-name-icon"
-                                        alt=""
-                                        src="./public/rect-name.svg"
+                                            class="rect-name-icon"
+                                            alt=""
+                                            src="./public/rect-name.svg"
                                     />
 
                                     <input
-                                        class="input-name"
-                                        placeholder="Fareez Aidid"
-                                        type="text"
-                                        name="dependentname"
+                                            class="input-name"
+                                            type="text"
+                                            name="dependentname"
                                     />
                                 </div>
                             </div>
@@ -100,16 +99,15 @@ $mykad = isset($_SESSION['mykad']) ? $_SESSION['mykad'] : '';
                                 <div class="input-i-c-input-age">
                                     <div class="rect-ic-parent">
                                         <img
-                                            class="rect-ic-icon"
-                                            alt=""
-                                            src="./public/rect-name.svg"
+                                                class="rect-ic-icon"
+                                                alt=""
+                                                src="./public/rect-name.svg"
                                         />
 
                                         <input
-                                            class="input-ic"
-                                            placeholder="83XXXXXXXXX"
-                                            type="text"
-                                            name="dependentmykad"
+                                                class="input-ic"
+                                                type="text"
+                                                name="dependentmykad"
                                         />
                                     </div>
                                 </div>
@@ -118,13 +116,13 @@ $mykad = isset($_SESSION['mykad']) ? $_SESSION['mykad'] : '';
                                 <div class="label-age">Age</div>
                                 <div class="dependent-age-inner">
                                     <div class="rect-age-parent">
-                                        <img
+                                        <!-- <img
                                             class="rect-age-icon"
                                             alt=""
                                             src="./public/rect-name.svg"
-                                        />
+                                        /> -->
 
-                                        <input class="input-age" placeholder="12" type="text" name="age" />
+                                        <input class="input-age"  type="text" name="age" />
                                     </div>
                                 </div>
                             </div>
@@ -133,13 +131,13 @@ $mykad = isset($_SESSION['mykad']) ? $_SESSION['mykad'] : '';
                     <div class="dependent-relay">
                         <div class="label-relationship">Relationship</div>
                         <div class="submit-button-frame">
-                            <img
+                            <!-- <img
                                 class="rect-relay-icon"
                                 alt=""
                                 src="./public/rect-name.svg"
-                            />
+                            /> -->
 
-                            <input class="input-relay" placeholder="Son" type="text" name="relay"/>
+                            <input class="input-relay" type="text" name="relay"/>
                         </div>
                     </div>
                 </div>

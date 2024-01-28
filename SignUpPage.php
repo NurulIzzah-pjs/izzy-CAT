@@ -7,32 +7,32 @@
     <link rel="stylesheet" href="./global.css" />
     <link rel="stylesheet" href="./SignUpPage.css" />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Changa One:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Changa One:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Krona One:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Cagliostro:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Cagliostro:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Caudex:wght@700&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Changa:wght@400&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Changa:wght@400&display=swap"
     />
     <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap"
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=League Spartan:wght@700&display=swap"
     />
 
     <script>
@@ -96,9 +96,9 @@
                             <div class="password">Password</div>
                             <div class="rect-pass-parent">
                                 <img
-                                    class="rect-pass-icon"
-                                    alt=""
-                                    src="./public/rect-ic.svg"
+                                        class="rect-pass-icon"
+                                        alt=""
+                                        src="./public/rect-ic.svg"
                                 />
 
                                 <input class="input-pass" type="text" name="password"  />
@@ -110,9 +110,9 @@
                         <div class="frame-div">
                             <div class="rect-phonenum-parent">
                                 <img
-                                    class="rect-phonenum-icon"
-                                    alt=""
-                                    src="./public/rect-ic.svg"
+                                        class="rect-phonenum-icon"
+                                        alt=""
+                                        src="./public/rect-ic.svg"
                                 />
 
                                 <input class="input-phonenum" type="text" name="phonenum"  />
@@ -126,9 +126,9 @@
                                 <div class="email-address">Email Address</div>
                                 <div class="rect-email-parent">
                                     <img
-                                        class="rect-email-icon"
-                                        alt=""
-                                        src="./public/rect-ic.svg"
+                                            class="rect-email-icon"
+                                            alt=""
+                                            src="./public/rect-ic.svg"
                                     />
 
                                     <input class="input-email" type="text" name="email"  />
@@ -140,9 +140,9 @@
                                 </div>
                                 <div class="rect-confirm-pass-parent">
                                     <img
-                                        class="rect-confirm-pass"
-                                        alt=""
-                                        src="./public/rect-ic.svg"
+                                            class="rect-confirm-pass"
+                                            alt=""
+                                            src="./public/rect-ic.svg"
                                     />
 
                                     <input class="input-confirm-pass" type="text" name="confirmpass" />
@@ -164,9 +164,9 @@
                     <div class="dependent-input">
                         <div class="input-dependent">
                             <img
-                                class="rect-dependent-icon"
-                                alt=""
-                                src="./public/rect-ic.svg"
+                                    class="rect-dependent-icon"
+                                    alt=""
+                                    src="./public/rect-ic.svg"
                             />
 
                             <input class="input-dependent1" type="text" name="dependent" />
@@ -177,9 +177,9 @@
             <button class="next-button-frame"type="submit" id="buttonNext">
                 <div class="next-button">
                     <div class="button-next"</div>
-                    <div class="next">Next</div>
-                </div>
-            </button>
+                <div class="next">Next</div>
+        </div>
+        </button>
     </div>
 </form>
 </body>
