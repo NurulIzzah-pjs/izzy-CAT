@@ -171,7 +171,7 @@ if ($result->num_rows > 0) {
         <div class="frame-child21"></div>
     </div>
     <div class="my-account12" id="myAccountContainer">
-        <div class="my-account13">My Account</div>
+        <a class="my-account13" href="UserProfile.php">My Account</a>
     </div>
 
 </div>

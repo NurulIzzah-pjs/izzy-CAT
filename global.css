@@ -23,6 +23,7 @@ body {
     --font-cutive-mono: "Cutive Mono";
     --font-literata: Literata;
 
+
     /* font sizes */
     --font-size-sm: 14px;
     --font-size-17xl: 36px;
@@ -40,6 +41,9 @@ body {
     --font-size-10xl: 29px;
     --font-size-lg: 18px;
     --font-size-lgi: 19px;
+    --font-size-19xl: 38px;
+    --font-size-7xl: 26px;
+
 
     /* Colors */
     --colours-primary: #fff;
@@ -80,6 +84,9 @@ body {
     --gap-2xs: 11px;
     --gap-3xs: 10px;
     --gap-11xl: 30px;
+    --gap-4xl: 23px;
+    --gap-8xl: 27px;
+
 
     /* Paddings */
     --padding-3xs: 10px;
@@ -140,6 +147,15 @@ body {
     --padding-51xl: 70px;
     --padding-base: 16px;
     --padding-59xl: 78px;
+    --padding-115xl: 134px;
+    --padding-68xl: 87px;
+    --padding-89xl: 108px;
+    --padding-99xl: 118px;
+    --padding-155xl: 174px;
+    --padding-12xl: 31px;
+    --padding-86xl: 105px;
+    --padding-33xl: 52px;
+
 
 
     /* Border radiuses */
@@ -147,4 +163,5 @@ body {
     --br-31xl: 50px;
     --br-3xs: 10px;
     --br-6xl: 25px;
+
 }

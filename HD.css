@@ -1,0 +1,275 @@
+.psj-transparent-43 {
+    position: absolute;
+    top: 44px;
+    left: 100px;
+    width: 222px;
+    height: 208px;
+    object-fit: cover;
+}
+.projek-sedekah-jariah-container7 {
+    position: absolute;
+    top: 254px;
+    left: 112px;
+}
+.projek-sedekah-jariah-container8 {
+    position: absolute;
+    top: 593px;
+    left: 1024px;
+}
+.privacy-policy-terms-container2 {
+    position: absolute;
+    top: 539px;
+    left: 400;
+    white-space: pre-wrap;
+}
+.email {
+    margin: 0;
+}
+.frame-child1,
+.no-telefon-016-container {
+    position: absolute;
+    top: 389px;
+    left: 112px;
+}
+.frame-child1 {
+    top: 577.5px;
+    left: 99.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1241px;
+    height: 1px;
+}
+.psj-transparent-4-container {
+    position: absolute;
+    top: 2574px;
+    left: 0;
+    width: 1440px;
+    height: 1785px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-cagliostro);
+}
+.kotak-atas-icon {
+    position: absolute;
+    top: 138px;
+    left: -3px;
+    width: 1440px;
+    height: 113px;
+    background-color: #B1AD7E; /* Replace "yourcolor" with the desired color code */
+}
+.feedback-form1,
+.send-us-message {
+    position: absolute;
+    top: 172px;
+    left: 142px;
+    font-size: var(--font-size-17xl);
+    font-family: var(--font-krona-one);
+}
+.send-us-message {
+    top: 309px;
+    left: 130px;
+    font-family: var(--font-moul);
+}
+.feedback-form-child {
+    position: absolute;
+    top: 403px;
+    left: 89px;
+    background-color: var(--colours-primary);
+    width: 1311px;
+    height: 723px;
+}
+.psj-transparent-4-parent1 {
+    position: absolute;
+    top: 1198px;
+    left: 29px;
+    width: 1440px;
+    height: 1785px;
+    overflow: hidden;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-cagliostro);
+}
+.first-name-kotak {
+    top: calc(50% - 461.5px);
+    left: calc(50% - 583px);
+    background-color: var(--colours-primary);
+    width: 582px;
+    height: 49px;
+}
+.first-name-kotak,
+.kotak-email,
+.kotak-ic,
+.kotak-issue,
+.kotak-submit,
+.last-name-kotak {
+    position: absolute;
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+}
+.kotak-submit {
+    top: calc(50% + 83.5px);
+    left: calc(50% - 70px);
+    border-radius: var(--br-3xs);
+    background-color: var(--color-lightsteelblue);
+    width: 165px;
+    height: 60px;
+    cursor: pointer;
+}
+;
+.my-account2,
+.my-account3 {
+    width: 116px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.my-account3 {
+    position: relative;
+    height: 34px;
+    flex-shrink: 0;
+}
+.my-account2 {
+    position: absolute;
+    top: 58px;
+    left: 1150px;
+    flex-direction: column;
+    cursor: pointer;
+}
+.email1,
+.phone-number,
+.send-us-message1 {
+    top: calc(50% - 370.5px);
+}
+.email1,
+.send-us-message1 {
+    left: calc(50% + 37px);
+}
+.send-us-message1 {
+    top: calc(50% - 254.5px);
+    left: calc(50% - 583px);
+}
+.first {
+    top: calc(50% - 450.5px);
+    left: calc(50% - 574px);
+    width: 75px;
+    height: 28px;
+}
+.first,
+.last,
+.submit {
+    position: absolute;
+    display: inline-block;
+}
+.last {
+    top: calc(50% - 450.5px);
+    left: calc(50% + 51px);
+    width: 75px;
+    height: 28px;
+}
+.submit {
+    top: calc(50% + 100.5px);
+    left: calc(50% - 38px);
+    font-size: var(--font-size-xl);
+    font-family: var(--font-krona-one);
+    text-align: center;
+    width: 102px;
+}
+.kotak-atas2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--colours-primary);
+    border-bottom: 0.6px solid var(--color-gray);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 135.6px;
+}
+.frame-child3 {
+    position: absolute;
+    top: 32px;
+    left: 344px;
+    border-radius: var(--br-31xl);
+    background-color: var(--color-gainsboro);
+    width: 957px;
+    height: 70px;
+}
+.articles3,
+.contact-us2,
+.home2,
+.programmes2
+
+{
+    position: absolute;
+    top: 58px;
+    left: 1021px;
+    cursor: pointer;
+}
+.articles3,
+.home2,
+.programmes2 {
+    left: 898px;
+}
+.home2,
+.programmes2 {
+    left: 720px;
+}
+.home2 {
+    left: 458px;
+}
+.about-us3 {
+    flex: 1;
+    position: relative;
+}
+.dropdown-inner {
+    position: relative;
+    width: 13px;
+    height: 14px;
+    object-fit: contain;
+    margin-left: -71px;
+}
+.about-us3 {
+    position: absolute;
+    top: 50px;
+    left: 535px;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(#d9d9d9, #d9d9d9), #fff;
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 154px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-9xs);
+    min-width: 154px;
+    text-align: center;
+    cursor: pointer;
+}
+.kotak-atas-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 165px;
+    overflow: hidden;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.psj-transparent-32 {
+    position: absolute;
+    top: 15px;
+    left: 210px;
+    width: 122px;
+    height: 123px;
+    object-fit: cover;
+}
+.feedback-form {
+    position: relative;
+    background-color: var(--color-gainsboro);
+    width: 100%;
+    height: 1889px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-montserrat);
+}

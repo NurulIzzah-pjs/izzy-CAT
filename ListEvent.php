@@ -123,7 +123,7 @@ $RayabuttonActivated = isset($_SESSION['RayabuttonActivated']) ? $_SESSION['Raya
               <div class="activate2">BOOK SLOT</div>
               </a>';
         } else {
-            echo '<p>Booking slot is currently unavailable. Please try again later.</p>';
+            echo '<p class = "notactivated">Booking slot is currently unavailable. Please try again later.</p>';
         }
         ?>
 <!--        <button class="mall-activation" id="mALLACTIVATION">-->
@@ -150,7 +150,7 @@ $RayabuttonActivated = isset($_SESSION['RayabuttonActivated']) ? $_SESSION['Raya
               <div class="activate2">BOOK SLOT</div>
               </a>';
         } else {
-            echo '<p>Booking slot is currently unavailable. Please try again later.</p>';
+            echo '<p class = "notactivated">Booking slot is currently unavailable. Please try again later.</p>';
         }
         ?>
 <!--                <button class="sekolah-activation" id="sEKOLAHACTIVATION">-->
@@ -199,7 +199,8 @@ $RayabuttonActivated = isset($_SESSION['RayabuttonActivated']) ? $_SESSION['Raya
               <div class="activate2">BOOK SLOT</div>
               </a>';
             } else {
-                echo '<p>Booking slot is currently unavailable. Please try again later.</p>';
+
+                echo '<p class = "notactivated2">Booking slot is currently unavailable. Please try again later.</p>';
             }
             ?>
 <!--                        <button class="eid-activation" id="eIDACTIVATION">-->

@@ -262,11 +262,13 @@
 }
 .mall-session1,
 .psj1 {
-    margin: 0;
+    margin-left: -400px;
+    line-height: 1;
 }
 .psj-mall-session-container1 {
-    margin: 0;
-    height: 106px;
+    margin-left: -450px;
+    /*margin-left: 650px;*/
+    height: 30px;
     position: relative;
     font-size: inherit;
     font-weight: 400;
@@ -317,6 +319,7 @@
     max-width: 100%;
 }
 .school-assistance {
+    margin-left: 400px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -331,32 +334,38 @@
     font-family: var(--font-changa-one);
 }
 .kotak-event-11 {
+
     height: 167px;
     width: 1440px;
     position: relative;
+    background-color: var(--color-gainsboro);
     display: none;
+    max-width: 100%;
 }
 .bantuan2,
 .persekolahan1 {
     margin: 0;
 }
 .bantuan-persekolahan-txt-container1 {
+    margin-left: -450px;
     line-break: anywhere;
 }
 .activate1,
 .bantuan-persekolahan1 {
-    position: relative;
-    display: flex;
-    align-items: center;
+\
+/*margin-left : -300px ;*/
+    margin: 0;
 }
 .bantuan-persekolahan1 {
     margin: 0;
     height: 106px;
+    position: relative;
     font-size: inherit;
     font-weight: 400;
     font-family: inherit;
-    min-width: 349px;
-    max-width: 100%;
+    display: flex;
+    align-items: center;
+    min-width: 230px;
     z-index: 2;
 }
 .activate1 {
@@ -371,12 +380,14 @@
 }
 .school-assistance1,
 .sekolah-activation {
+
     display: flex;
     flex-direction: row;
     align-items: center;
     box-sizing: border-box;
 }
 .sekolah-activation {
+
     cursor: pointer;
     border: 1px solid var(--color-black);
     padding: var(--padding-6xs);
@@ -388,6 +399,9 @@
     z-index: 2;
 }
 .school-assistance1 {
+    /*align-self: stretch;*/
+    align-items: flex-start;
+    margin-left: 60px;
     background-color: var(--color-gainsboro);
     justify-content: flex-start;
     padding: var(--padding-7xl) var(--padding-90xl) var(--padding-16xl) 1100px;
@@ -728,6 +742,14 @@
     .activation-page {
         gap: var(--gap-lg);
     }
+}
+.notactivated{
+    font-size: var(--font-size-11xl);
+}
+
+.notactivated2{
+    font-size: var(--font-size-11xl);
+    width: 380px;
 }
 @media screen and (max-width: 450px) {
     .list-of-event1 {

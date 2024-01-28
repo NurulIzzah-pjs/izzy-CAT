@@ -124,6 +124,7 @@
     if (myAccountContainer) {
         myAccountContainer.addEventListener("click", function (e) {
             // Please sync "User Profile" to the project
+            window.location.href = "UserProfile.php";
         });
     }
 </script>

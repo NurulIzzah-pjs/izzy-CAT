@@ -1,0 +1,389 @@
+.about-us-child {
+    position: absolute;
+    top: 133px;
+    left: 893px;
+    background-color: var(--color-gainsboro);
+    width: 547px;
+    height: 804px;
+}
+.psj-transparent-4 {
+    position: absolute;
+    top: 44px;
+    left: 100px;
+    width: 222px;
+    height: 208px;
+    object-fit: cover;
+}
+.projek-sedekah-jariah {
+    margin: 0;
+}
+.projek-sedekah-jariah-container {
+    position: absolute;
+    top: 254px;
+    left: 112px;
+}
+.projek-sedekah-jariah-container1 {
+    position: absolute;
+    top: 593px;
+    left: 1024px;
+}
+.privacy-policy-terms-container {
+    position: absolute;
+    top: 539px;
+    left: 1024px;
+    white-space: pre-wrap;
+}
+.frame-child,
+.no-telefon-013-286-container {
+    position: absolute;
+    top: 389px;
+    left: 112px;
+}
+.frame-child {
+    top: 577.5px;
+    left: 99.5px;
+    border-top: 1px solid var(--color-black);
+    box-sizing: border-box;
+    width: 1241px;
+    height: 1px;
+}
+.psj-transparent-4-parent {
+    position: absolute;
+    top: 2566px;
+    left: 0;
+    width: 1440px;
+    height: 674px;
+    overflow: hidden;
+    font-family: var(--font-cagliostro);
+}
+.about-us-item {
+    position: absolute;
+    top: 133px;
+    left: 0;
+    width: 893px;
+    height: 804px;
+    object-fit: cover;
+}
+.projek-sedekah-jariah-container2 {
+    position: absolute;
+    top: 231px;
+    left: 951px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    width: 428px;
+}
+.about-us-inner,
+.rectangle-div {
+    position: absolute;
+    top: 976px;
+    height: 724px;
+}
+.about-us-inner {
+    left: 594px;
+    width: 846px;
+    object-fit: cover;
+}
+.rectangle-div {
+    left: 35px;
+    background-color: var(--color-gainsboro);
+    width: 559px;
+}
+.latar-belakang-projek {
+    position: absolute;
+    top: 1035px;
+    left: 77px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    width: 428px;
+}
+.rectangle-icon {
+    position: absolute;
+    top: 1739px;
+    left: 0;
+    width: 801px;
+    height: 698px;
+    object-fit: cover;
+}
+.about-us-child1 {
+    position: absolute;
+    top: 1845px;
+    left: 801px;
+    background-color: var(--color-gainsboro);
+    width: 639px;
+    height: 468px;
+}
+.aktiviti-projek-sedekah {
+    position: absolute;
+    top: 1885px;
+    left: 879px;
+    font-size: var(--font-size-5xl);
+    display: inline-block;
+    width: 428px;
+}
+.projek-sedekah-jariah-container3 {
+    position: absolute;
+    top: 1050px;
+    left: 77px;
+    font-family: var(--font-changa);
+    white-space: pre-wrap;
+    display: inline-block;
+    width: 489px;
+    height: 332px;
+}
+.bantuan-bulanan-kepada {
+    margin-bottom: 0;
+}
+.bantuan-bulanan-kepada-ibu-tun {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    padding-left: var(--padding-8xl);
+}
+.bantuan-bulanan-kepada-container,
+.projek-sedekah-jariah4 {
+    position: absolute;
+    top: 1981px;
+    left: 879px;
+    font-family: var(--font-changa);
+}
+.projek-sedekah-jariah4 {
+    top: 348px;
+    left: 951px;
+    display: inline-block;
+    width: 489px;
+    height: 332px;
+}
+.kotak-atas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--colours-primary);
+    border-bottom: 0.6px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 135.6px;
+}
+.frame-item {
+    position: absolute;
+    top: 32px;
+    left: 344px;
+    border-radius: 50px;
+    background-color: var(--color-gainsboro);
+    width: 957px;
+    height: 70px;
+}
+.articles,
+.contact-us,
+.home,
+.programmes {
+    position: absolute;
+    top: 58px;
+    left: 1021px;
+    cursor: pointer;
+}
+.articles,
+.home,
+.programmes {
+    left: 898px;
+}
+.home,
+.programmes {
+    left: 720px;
+}
+.home {
+    left: 458px;
+}
+.about-us1 {
+    flex: 1;
+    position: relative;
+}
+.dropdown-child {
+    position: relative;
+    width: 13px;
+    height: 14px;
+    object-fit: contain;
+    margin-left: -71px;
+}
+.about-us9 {
+    position: absolute;
+    top: 50px;
+    left: 535px;
+    border-radius: var(--br-8xs);
+    background: linear-gradient(#d9d9d9, #d9d9d9), #fff;
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 154px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs) var(--padding-9xs);
+    min-width: 154px;
+    text-align: center;
+    cursor:pointer;
+}
+.kotak-atas-parent {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 165px;
+    overflow: hidden;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-krona-one);
+}
+.psj-transparent-3 {
+    position: absolute;
+    top: 15px;
+    left: 210px;
+    width: 122px;
+    height: 123px;
+    object-fit: cover;
+}
+.about-us {
+    position: relative;
+    background-color: var(--colours-primary);
+    width: 100%;
+    height: 3197px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-moul);
+}
+/* Section */
+
+.development-goals,
+.psj-the {
+    margin: 0;
+}
+.psj-the-container {
+    height: 88px;
+    position: relative;
+    display: inline-block;
+}
+
+.read-more,
+.read-more-link,
+.where-we-are {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-more {
+    width: 259.1px;
+    height: 43px;
+    position: relative;
+    flex-shrink: 0;
+}
+.read-more-link,
+.where-we-are {
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.read-more-link {
+    width: 300px;
+    height: 57px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-lightsteelblue);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    padding: var(--padding-mini) 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.where-we-are {
+    flex: 1;
+    background-color: var(--colours-primary);
+    overflow: hidden;
+    padding: var(--padding-5xl) var(--padding-67xl) var(--padding-5xl)
+    var(--padding-44xl);
+    gap: var(--gap-6xs);
+    min-width: 298px;
+    max-width: 100%;
+}
+.where-are-we {
+    height: 44px;
+    position: relative;
+    display: inline-block;
+}
+.read-more-wrapper,
+.read-more1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.read-more1 {
+    width: 259.1px;
+    height: 43px;
+    position: relative;
+    flex-shrink: 0;
+}
+.read-more-wrapper {
+    width: 300px;
+    height: 57px;
+    border-radius: var(--br-3xs);
+    background-color: var(--color-lightsteelblue);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    flex-direction: column;
+    padding: var(--padding-mini) 0;
+    white-space: nowrap;
+    cursor: pointer;
+}
+.p-s-j-the-u-n-s-d-gs,
+.where-we-are1 {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+.where-we-are1 {
+    background-color: var(--colours-primary);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xl) var(--padding-67xl) var(--padding-5xl)
+    var(--padding-44xl);
+    gap: var(--gap-6xs);
+    min-width: 298px;
+    min-height: 200px;
+}
+.p-s-j-the-u-n-s-d-gs {
+    background-color: var(--color-gainsboro);
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-40xl) var(--padding-202xl) var(--padding-40xl)
+    var(--padding-237xl);
+    gap: var(--gap-28xl);
+}
+.u-n-s-d-gs-frame,
+.u-n-s-d-gs-frame-child {
+    overflow: hidden;
+    max-width: 100%;
+    flex-shrink: 0;
+}
+.u-n-s-d-gs-frame-child {
+    height: 636px;
+    width: 1440px;
+    position: relative;
+    display: none;
+}
+.u-n-s-d-gs-frame {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 189px;
+    box-sizing: border-box;
+    gap: var(--gap-6xl);
+    text-align: center;
+    font-size: var(--font-size-5xl);
+    color: var(--color-black);
+    font-family: var(--font-changa);
+}

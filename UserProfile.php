@@ -140,13 +140,13 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
                         if ($result_timeslot->num_rows > 0) {
                             $row_timeslot = $result_timeslot->fetch_assoc();
                             echo "<div class='tabledetails4'>";
-                            echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Timeslot</div></div>";
-                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . htmlspecialchars($row_timeslot['timeslot']) . "</div></div>";
+                            echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Timeslot Mall</div></div>";
+                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . htmlspecialchars($row_timeslot['timeslot']) . " (XX/XX/XXXX)</div></div>";
                             echo "</div>";
                         } else {
                             echo "<div class='tabledetails4'>";
-                            echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Timeslot</div></div>";
-                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . "No timeslot found" . "</div></div>";
+                            echo "<div class='email-wrapper'><div class='share-your-thoughts-container'>Timeslot Mall</div></div>";
+                            echo "<div class='email-container'><div class='share-your-thoughts-container'>" . "No Data Yet" . " (XX/XX/XXXX) </div></div>";
                             echo "</div>";
                         }
 
@@ -168,7 +168,6 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
                             echo "</div>";
                         }
 
-
                         echo "</div>";
                     }
                 else {
@@ -183,14 +182,9 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
         </div>
     </div>
 
-<!--    <div class="info-box">-->
-<!--        <p class="name">Timeslot Raya :</p>-->
-<!--        <p class="name1">Timeslot Sekolah :</p>-->
-<!--    </div>-->
-
     <?php
     include 'connection.php'; // Include your database connection
-
+    if ($result->num_rows > 0) {
         //timeslot raya
         $sql_timeslotraya = "SELECT * FROM psj_bookingraya WHERE user_id='$mykad'"; // Adjust the query as needed
         $result_timeslotraya = $conn->query($sql_timeslotraya);
@@ -198,41 +192,22 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
         if ($result_timeslotraya->num_rows > 0) {
             $row_timeslotraya = $result_timeslotraya->fetch_assoc();
             echo "<div class='info-box'>";
-            echo "<div class='name'>Timeslot Raya :</div>";
-            echo "<div class='name-time'>" . htmlspecialchars($row_timeslotraya['timeslot']) . "</div>";
+            echo "<div class='name'>Timeslot Raya (XX/XX/XXXX) :</div>";
+//            echo "<div class='name'>(XX/XX/XXXX)</div>";
+            echo "<div class='name-time'>" . htmlspecialchars($row_timeslotraya['timeslot']) . " </div></div>";
             echo "</div>";
 
         }
 
-        else {
-            echo "0 results";
+        else{
+            echo "<div class='info-box'>";
+            echo "<div class='name'>Timeslot Raya (XX/XX/XXXX) :</div>";
+            echo "<div class='name-time'>" . "No Data Yet" . "</div>";
+            echo "</div>";
+
         }
-
-    $conn->close();
-    ?>
-
-        <?php
-        include 'connection.php'; // Include your database connection
- if ($result->num_rows > 0) {
-     //time slot sekolah
-     $sql_timeslotsekolah = "SELECT * FROM psj_bookingsekolah WHERE user_id='$mykad'"; // Adjust the query as needed
-     $result_timeslotsekolah = $conn->query($sql_timeslotsekolah);
-
-     if ($result_timeslotsekolah->num_rows > 0) {
-         $row_timeslotsekolah = $result_timeslotsekolah->fetch_assoc();
-//         echo "<div class='info-box'>";
-         echo "<div class='name1'>Timeslot Sekolah :</div>";
-         echo "<div class='name1-time'>" . htmlspecialchars($row_timeslotsekolah['timeslot']) . "</div>";
-//         echo "</div>";
-     } else {
-//         echo "<div class='info-box'>";
-         echo "<div class='name1'>Timeslot Sekolah :</div>";
-         echo "<div class='name1-time'>" . "No timeslot" . "</div>";
-//         echo "</div>";
-     }
-
-     echo "</div>";
- }
+        echo "</div>";
+    }
     else {
         echo "0 results";
     }
@@ -240,6 +215,36 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
     $conn->close();
     ?>
 
+    <?php
+    include 'connection.php'; // Include your database connection
+    if ($result->num_rows > 0) {
+        //time slot sekolah
+        $sql_timeslotsekolah = "SELECT * FROM psj_bookingsekolah WHERE user_id='$mykad'"; // Adjust the query as needed
+        $result_timeslotsekolah = $conn->query($sql_timeslotsekolah);
+
+        if ($result_timeslotsekolah->num_rows > 0) {
+            $row_timeslotsekolah = $result_timeslotsekolah->fetch_assoc();
+//         echo "<div class='info-box'>";
+            echo "<div class='name1'>Timeslot Sekolah (XX/XX/XXXX) :</div>";
+//            echo "<div class='name1'>(XX/XX/XXXX)</div>";
+            echo "<div class='name1-time'>" . htmlspecialchars($row_timeslotsekolah['timeslot']) . "</div>";
+//         echo "</div>";
+        } else {
+//         echo "<div class='info-box'>";
+            echo "<div class='name1'>Timeslot Sekolah </div>";
+            echo "<div class='name1-time'>" . "No Data Yet" . "</div>";
+            echo "<div class='name2'>(XX/XX/XXXX) :</div>";
+//         echo "</div>";
+        }
+
+        echo "</div>";
+    }
+    else {
+        echo "0 results";
+    }
+
+    $conn->close();
+    ?>
     <div class="frame39">
         <div class="frame40">
             <div class="frame41">
@@ -250,7 +255,7 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
                     </div>
                     <a
                             class="feedback-form-wrapper"
-                            href="./Helpdesk.html"
+                            href="./HD.html"
                             id="frameLink"
                     >
                         <div class="booking-slot">HELPDESK FORM</div>
@@ -273,14 +278,27 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
                         <div class="booking-slot">BOOKING SLOT</div>
                     </a>
 
-
+<!--                    --><?php
+//    // Check if the button is activated
+//    if ($MallbuttonActivated) {
+//        echo ' <a
+//                            class="feedback-form-wrapper"
+//                            href="Timeslot.php"
+//                            id="frameLink1"
+//                    >
+//                        <div class="booking-slot">BOOKING SLOT</div>
+//                    </a>';}
+//        else {
+//        echo '<p>Booking slot is currently unavailable. Please try again later.</p>';
+//    }
+//        ?>
                     <div class="share-your-thoughts-container">
                         to secure your spot!
                     </div>
                 </div>
             </div>
             <div class="log-out-wrapper">
-                <div class="log-out">LOG OUT</div>
+                <a class="log-out" href="Homepage.html" >LOG OUT</a>
             </div>
         </div>
         <div class="frame44">
@@ -334,7 +352,6 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
     </div>
     <img class="kotak-atas-icon9" alt="" src="./public/kotak-atas@2x.png" />
     <div class="my-account1" >My Account</div>
-
     <!--MY ACCOUNT-->
 <!--    <div class="my-account12">My Account</div>-->
 <!--    <div class="header-hijau"></div>-->
@@ -346,7 +363,6 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
 <!--            src="./public/psj-transparent-3@2x.png"-->
 <!--    />-->
 
-<!--    NAVIGATION BAR-->
     <div class="frame-parent">
         <div class="frame48">
             <div class="frame2">
@@ -355,15 +371,18 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
                         alt=""
                         src="./public/psj-transparent-3@2x.png"
                 />
-
-                <div class="home9" id="homeText">Home</div>
-                <div class="programmes8" id="programmes" >Programmes</div>
-<!--            </div>-->
-
+            <a class="home9" href="./HomePageUser.html" id="home">Home</a>
+            <a class="programmes8" href="./PROGRAMME.html" id="programmes"
+            >Programmes</a
+            >
+        </div>
         <div class="frame49">
             <a class="articles9" href="./ARTIKEL.html" id="articles">Articles </a>
-            <a class="contact-us8" href="./Helpdesk.html">Contact Us</a>
+            <a class="contact-us8" href="./HD.html">Contact Us</a>
         </div>
+
+    <!--<div class="my-account13" id="myAccountContainer">
+        <div class="my-account14">My Account</div>-->
 
     <div class="dropdown1">
         <div class="about-us1">About us</div>
@@ -439,17 +458,8 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
         </div>
     </div>
 </div>
-</div>
 
 <script>
-    var homeText = document.getElementById("homeText");
-    if (homeText) {
-        homeText.addEventListener("click", function (e) {
-
-            window.location.href = "./Homepage.html";
-        });
-    }
-
     var frameLink = document.getElementById("frameLink");
     if (frameLink) {
         frameLink.addEventListener("click", function (e) {
@@ -465,19 +475,24 @@ $MallbuttonActivated = isset($_SESSION['MallbuttonActivated']) ? $_SESSION['Mall
         });
     }
 
-
+    var home = document.getElementById("home");
+    if (home) {
+        home.addEventListener("click", function (e) {
+            window.location.href = "./HomePageUser.html";
+        });
+    }
 
     var programmes = document.getElementById("programmes");
     if (programmes) {
         programmes.addEventListener("click", function (e) {
-            window.location.href = "PROGRAMME.html";
+            window.location.href = "./ARTIKEL.html";
         });
     }
 
     var articles = document.getElementById("articles");
     if (articles) {
         articles.addEventListener("click", function (e) {
-            window.location.href = "ARTIKEL.html";
+            window.location.href = "./PROGRAMME.html";
         });
     }
 
